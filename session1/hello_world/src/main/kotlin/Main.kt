@@ -1,6 +1,11 @@
 fun main(){
     println("hello world")
+    val classmates = arrayOf("Rob", "Yassin", "Cossima", "Tuur", "Amin")
+    for(classmate in classmates) {
+        greet(classmate)
+    }
+}
 
-    val names = arrayOf("Rob", "Yassin", "Cossima", "Tuur", "Amin")
-    println("classmates: ${names[0]}")
+fun greet(name: String){
+        println("Hello $name")
 }
